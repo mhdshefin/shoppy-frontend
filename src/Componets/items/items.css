@@ -1,0 +1,149 @@
+.items{
+    width: 350px;
+}
+.items p{
+    margin: 6px 0px;
+}
+
+.item-prices{
+    display: flex;
+    gap: 20px;
+
+}
+
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.items:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+@media(max-width:1280px){
+ .items{
+    width: 220px;
+    font-size: 14px;
+ }   
+ .items img{
+    width: 220px;
+ }
+ .item-price-old{
+    font-size: 14px;
+ }
+ .item-price-new{
+    font-size: 18px;
+ }
+}
+
+@media(max-width:1100px){
+    .items{
+        width: 200px;
+        font-size: 12px;
+     }   
+     .items img{
+        width: 200px;
+     }
+     .item-price-old{
+        font-size: 12px;
+     }
+     .item-price-new{
+        font-size: 15px;
+     }
+}
+
+@media(max-width:1024px){
+    .items{
+        width: 180px;
+        font-size: 10px;
+     }   
+     .items img{
+        width: 180px;
+     }
+     .item-price-old{
+        font-size: 10px;
+     }
+     .item-price-new{
+        font-size: 14px;
+     }
+}
+
+@media(max-width:930px){
+    .items{
+        width: 150px;
+        font-size: 10px;
+     }   
+     .items img{
+        width: 150px;
+     }
+     .item-price-old{
+        font-size: 10px;
+     }
+     .item-price-new{
+        font-size: 14px;
+     }
+}
+
+
+@media(max-width:800px){
+    .items{
+        width: 100px;
+        font-size: 8px;
+     }   
+     .items img{
+        width: 118px;
+     }
+     .item-price-old{
+        font-size: 6px;
+     }
+     .item-price-new{
+        font-size: 8px;
+     }
+}
+
+@media(max-width:500px){
+    .items{
+        width: 70px;
+        font-size: 8px;
+     }   
+     .items img{
+        width: 90px;
+     }
+     .item-price-old{
+        font-size: 5px;
+     }
+     .item-price-new{
+        font-size: 7px;
+     }
+     
+}
+
+@media(max-width:500px){
+   .items{
+       width: 150px;
+       font-size: 14px;
+    }   
+    .items img{
+       width: 150px;
+    }
+    .item-price-old{
+       font-size: 10px;
+    }
+    .item-price-new{
+       font-size: 15px;
+    }
+    
+}
+
+
+
+

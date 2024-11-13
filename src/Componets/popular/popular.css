@@ -1,0 +1,133 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+padding-top: 60px;
+}
+
+.popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.popular-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+@media(max-width:1280px){
+    .popular{
+        height: auto;
+        padding-top: 45px;
+    }
+    .popular h1{
+        font-size: 50px;
+    }
+    .popular hr{
+    width: 160px;
+    height: 4px;
+    }
+    .popular-item{
+        margin-top: 30px;
+        gap: 40px;
+    }
+}
+
+@media(max-width:1024px){
+    .popular{
+        height: auto;
+        padding-top: 40px;
+    }
+    .popular h1{
+        font-size: 45px;
+    }
+    .popular hr{
+    width: 140px;
+    height: 4px;
+    }
+    .popular-item{
+        margin-top: 20px;
+        gap: 20px;
+    }
+}
+
+@media(max-width:800px){
+    .popular{
+        height: auto;
+        padding-top: 0px;
+        margin-top: -45px;
+    }
+    .popular h1{
+        font-size: 35px;
+    }
+    .popular hr{
+    width: 130px;
+    height: 3px;
+    }
+    .popular-item{
+        margin-top: 30px;
+     padding-left: 5px;
+        gap: 25px;
+    }
+}
+
+
+@media(max-width:500px){
+    .popular{
+        height: auto;
+        padding-top: 0px;
+        margin-top: -140px;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .popular hr{
+    width: 130px;
+    height: 3px;
+    }
+    .popular-item{
+        margin-top: 30px;
+     padding-left: 5px;
+        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+@media(max-width:450px){
+    .popular{
+        height: auto;
+        padding-top: 0px;
+        margin-top: -200px;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .popular hr{
+    width: 130px;
+    height: 3px;
+    }
+    .popular-item{
+        margin-top: 30px;
+     padding-left: 5px;
+        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
