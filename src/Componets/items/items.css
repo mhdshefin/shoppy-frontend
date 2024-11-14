@@ -4,9 +4,6 @@
 .items p{
     margin: 6px 0px;
 }
- .items img{
-    width: 230px;
- }
 .item-prices{
     display: flex;
     gap: 20px;
