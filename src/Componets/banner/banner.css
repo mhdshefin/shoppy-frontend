@@ -208,15 +208,14 @@
 
 @media(max-width:450px) {
     .banner{
-        padding-top: -20vhpx;
         height: 90vh;
     }
     .banner-left {
         padding-left: 10px;
-        margin-top: -260px;
+        margin-top: -300px;
     }
     .banner-right{
-        margin-top: -220px;
+        margin-top: -280px;
     }
 
     .banner-left h2 {
@@ -236,14 +235,14 @@
         width: 160px;
         height: 40px;
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 12px;
         border-radius: 50px;
     }
 
     .banner-right img {
        
         width: 185px;
-        height: 290px;
+        height: 280px;
     
     }
 }
