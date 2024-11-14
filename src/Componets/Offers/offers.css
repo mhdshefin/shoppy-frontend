@@ -49,7 +49,7 @@ background: linear-gradient(180deg , #fde1ff, #e1ffea22 60%) ;
     padding-top: 60px;
 }
 .offers-right img{
-        width: 350px;
+        width: 330px;
     }
 
 @media(max-width:1280px){
@@ -65,7 +65,7 @@ background: linear-gradient(180deg , #fde1ff, #e1ffea22 60%) ;
         font-size: 25px;
     }
     .offers-right img{
-        width: 350px;
+        width: 330px;
     }
     .offers-left button{
         width: 250px;
