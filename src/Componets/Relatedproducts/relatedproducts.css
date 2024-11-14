@@ -1,9 +1,10 @@
 .relatedproducts{
-    display: flex;
+ display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .relatedproducts h1{
