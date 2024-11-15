@@ -117,9 +117,9 @@
 
 @media(max-width:450px){
     .new-collections{
-        padding-top: 0px;
         margin-top: -300px;
-        margin-left:5px;
+        padding-top: 0;
+        align-items: center;
     }
     .new-collections h1{
         font-size: 30px;
@@ -131,7 +131,7 @@
     .collections{
         margin-top: 30px;
      padding-left: 5px;
-        gap: 25px;
+        gap: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
