@@ -139,13 +139,13 @@
 
 @media(max-width:500px) {
     .newsletter {
-        padding: 0px 80px;
-        margin-bottom: 120px;
         gap: 20px;
+        margin-bottom: 120px;
         margin-top: 170px;
+        width: 50%;
     }
     .newsletter h1{
-        font-size: 14px;
+        font-size: 10px;
     }
     .newsletter p{
         font-size: 10px;
