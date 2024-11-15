@@ -56,7 +56,7 @@ background: linear-gradient(180deg , #fde1ff, #e1ffea22 60%) ;
     .offers{
         margin-top: 60px;
         padding: 40px;
-        width: 100%;
+        width: 80%;
     }
     .offers h1{
         font-size: 70px;
@@ -79,7 +79,7 @@ background: linear-gradient(180deg , #fde1ff, #e1ffea22 60%) ;
     .offers{
         margin-top: 60px;
         padding: 40px;
-        width: 100%;
+        width: 80%;
     }
     .offers-left{
         padding-top: 0px;
@@ -101,7 +101,7 @@ background: linear-gradient(180deg , #fde1ff, #e1ffea22 60%) ;
     .offers{
         margin-top: 60px;
         padding: 0px;
-        width: 100%;
+        width: 80%;
     }
     .offers-left{
         padding-top: 0px;
@@ -131,7 +131,7 @@ background: linear-gradient(180deg , #fde1ff, #e1ffea22 60%) ;
     .offers{
         margin-top: 60px;
         padding: 0px;
-        width: 100%;
+        width: 80%;
     }
     .offers-left{
         padding-top: 0px;
