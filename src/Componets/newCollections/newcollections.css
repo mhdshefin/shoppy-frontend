@@ -119,6 +119,7 @@
     .new-collections{
         padding-top: 0px;
         margin-top: -300px;
+        margin-left:5px;
     }
     .new-collections h1{
         font-size: 30px;
