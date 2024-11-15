@@ -67,10 +67,13 @@
 }
 
 @media(max-width:800px){
-    .new-collections{
+       .new-collections {
         height: auto;
-        padding-top: 0px;
         margin-top: -220px;
+        padding-top: 50px;
+        width: 95%;
+        padding: 25px;
+        margin-left: -32px;
     }
     .new-collections h1{
         font-size: 35px;
