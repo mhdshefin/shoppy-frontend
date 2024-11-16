@@ -3,7 +3,8 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .relatedproducts h1{
@@ -23,4 +24,30 @@
     margin-top: 50px;
     gap: 30px;
     display: flex;
+}
+@media(max-width:800px){
+    .relatedproducts h1{
+        color: #171717;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .relatedproducts-items {
+        display: grid;
+        gap: 30px;
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(max-width:500px){
+    .relatedproducts h1{
+        color: #171717;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .relatedproducts-items {
+        display: grid;
+        gap: 30px;
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
 }
