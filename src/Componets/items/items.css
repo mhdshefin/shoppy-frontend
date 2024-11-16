@@ -1,10 +1,12 @@
 .items{
     width: 350px;
 }
+.items img{
+width:330px;
+}
 .items p{
     margin: 6px 0px;
 }
-
 .item-prices{
     display: flex;
     gap: 20px;
